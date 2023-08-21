@@ -1,0 +1,321 @@
+::after,
+::before,
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+}
+
+nav {
+    width: 100vw;
+    max-height: 50px;
+    background-color: #3A66A5;
+    color: white;
+    
+}
+ .logo {
+    margin-top: .8rem;
+    font-weight: bold;
+    color: #CCE6FF;
+    font-size: 24px;
+  }
+.nav-list ul {
+    list-style: none;
+}
+
+ .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+
+} 
+
+.section-1 div.hero {
+    width: 100vw;
+    height: 700px;
+    background-image: url("images/serenelife with woman.png");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Inter";
+    font-size: 3rem;
+    color: #FAE441;
+  
+}
+
+p {
+    margin: 0;
+}
+
+.title {
+    max-width: 400px;
+    margin: 0;
+    margin-left: 70px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: navy;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    mix-blend-mode: hard-light;
+}
+
+.section-2,
+footer {
+   max-width: 700px;
+   color: #2E2872;
+   margin: 40px auto;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.opening-text,
+footer {
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+
+.closing-text p {
+    margin-top: 2rem;
+}
+   
+.section-3 {
+    max-width: 1400px;
+    margin: 0 auto;
+       
+}
+
+.section-3 article {
+    background-color: #63C8F6;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.grid-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+
+.item-container {
+    /* width: 600px; */
+   max-width: 600px;
+   
+}
+
+.item-title {
+    color: #FAE441;
+    font-family: "Inter";
+    background-color: #2E2872;
+    padding: 10px 20px;
+    margin-top: -1rem;
+}
+
+.item-heading {
+    margin-top: -1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: .8;
+}
+
+.description-box {
+    background-color: #CCE6FF;
+    margin-bottom: 24px;
+    max-height: 450px;
+    border: solid black 1px;
+    
+}
+
+.item-content {
+    margin-left: 1rem;
+    margin-bottom: 30px;
+}
+
+.item-name {
+    margin-top: 15px;
+}
+
+.image-container {
+    background-color: #fff;
+}
+.image-container,
+.price-container {
+    width: 275px;
+    height: 275px;
+    max-width: 275px;
+    border: solid 2px #3A66A5;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.price-container {
+    text-align: center;
+    color: #D74B34;
+    font-weight: bold;
+    background-color:#CCE6FF;
+   
+}
+
+.see-more {
+    width: 275px;
+    max-width: 275px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #2E2872;
+    color: #fff;
+    border: solid #fff 2px;
+    padding: 10px;
+} 
+
+.see-more:hover {
+    cursor: pointer;
+    background-color: #CCE6FF;
+    color: #D74B34;
+    border: none;
+    border-style: dotted;
+
+}
+
+.amazon {
+    padding: 10px 30px;
+    color: #Fff;
+    background-color: #D74B34;
+    border: solid #FAE441 1px;
+    box-shadow: 0px 4px 4px #3c3b3b;
+}
+
+.amazon:hover {
+    cursor: pointer;
+    background-color: #CCE6FF;
+    color: #D74B34;
+    border: none;
+    border-style: dotted;
+}
+
+/*====================================== */
+.pros-box,
+.cons-box {
+    width: 275px;
+    max-width: 275px;
+    border: solid #3A66A5 1px;
+    padding-right: 10px;
+  }
+
+.pros-box {
+    background-color: #CCE6FF;
+}
+
+
+.cons-box {
+    background-color: #3A66A5;
+    color: #fff;
+}
+
+.pros-box h2,
+.cons-box h2 {
+    text-align: center;
+}
+
+.pros-box h2 {
+    color: #d74b34;
+}
+
+.cons-box h2 {
+    color:#FAE441;
+}
+
+.pros-box .ruler {
+    margin-top: -20px;
+    margin-left: 6px;
+    border-top: solid #D74B34 2px;
+   
+}
+
+.cons-box .ruler {
+    border-top: solid #FAE441 2px; 
+    margin-top: -20px;
+    margin-left: 6px;
+}
+
+.site-name {
+    color:#3A66A5;
+    font-size: 1.5rem;
+}
+
+/* =================================== */
+@media screen and (max-width: 1000px) {
+   .section-3 {
+    display: block;
+    max-width: 900px;
+    margin-inline: auto;
+           
+    }
+
+
+   }
+
+ @media screen and (max-width: 700px) {
+    .logo {
+        font-size: 1rem;
+    }
+
+    .opening-text,
+    footer {
+        min-width: 300px;
+        margin-inline: 1rem;
+    }
+
+    
+    .title {
+        font-size: 30px;
+        margin-inline: auto;
+   
+    }
+    
+ .section-3 {
+      display: block;
+    }
+
+.grid-box {
+    display: block;
+    grid-template-columns: 0;
+        
+} 
+
+.item-heading,
+.item-content {
+    margin-inline: 10px;
+}
+
+.image-container,
+.price-container,
+.pros-box,
+.cons-box {
+    margin: 20px auto;
+}
+
+  } 
+
+.qualifier {
+    color:#3A66A5;
+    font-size: 1rem;
+}
+
+
